@@ -56,6 +56,7 @@ function minKnightMoves(startX = 0, startY = 0, targetX = 0, targetY = 0) {
     for (const [mx, my] of moves) {
       const newX = x + mx;
       const newY = y + my;
+      if (newX < 0 || newX > 7 || newY < 0 || newY > 7) continue;
       if (newX === targetX && newY === targetY) return newStep;
       const newStr = `${newX},${newY}`;
       if (!set.has(newStr)) {

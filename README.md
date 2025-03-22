@@ -1,4 +1,25 @@
+[Leetcode 200. Number of Islands](https://github.com/kanatov/algorithm-problems/blob/main/200-number-of-islands/200-number-of-islands.js)
+
+```
+[
+  ["1", "0", "1"],
+  ["1", "1", "1"],
+  ["1", "0", "1"],
+],
+Output: 1
+```
+
+```
+[
+  ["1", "0", "1"],
+  ["0", "1", "0"],
+  ["1", "0", "1"],
+],
+Output: 5
+```
+
 [Leetcode 1197. Minimum Knight Moves](https://github.com/kanatov/algorithm-problems/blob/main/1197-minimum-knight-moves/1197-minimum-knight-moves.js)
+
 ```
    Start: (A, 1)
    A B C D E F G H
